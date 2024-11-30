@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Expenses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>View Expenses</h1>
+        <div class="expense-list">
+            <h2>Expenses</h2>
+            <ul id="expenses"></ul>
+            <h3>Total: $<span id="total-amount">0</span></h3>
+        </div>
+        <div id="split-result" class="split-result">
+            <h3>Split Cost per Friend:</h3>
+            <ul id="split-details"></ul>
+        </div>
+        <button id="add-expense-btn" onclick="navigateToAdd()">Add New Expense</button>
+    </div>
+    <script src="view-script.js"></script>
+</body>
+</html>

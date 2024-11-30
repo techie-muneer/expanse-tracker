@@ -1,0 +1,28 @@
+.friend-name {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 16px);
+    font-size: 1rem;
+}
+
+.split-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e0ffe0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#split-details {
+    list-style-type: none;
+    padding: 0;
+}
+
+#split-details li {
+    font-weight: bold;
+    color: #28a745;
+    margin: 5px 0;
+}
